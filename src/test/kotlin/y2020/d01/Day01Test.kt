@@ -1,4 +1,4 @@
-package y2020
+package y2020.d01
 
 import common.Resources.asListOfInt
 import org.assertj.core.api.Assertions.assertThat
@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Nested
 import org.junit.jupiter.api.Test
 
-@DisplayName("2020 - Day 1")
+@DisplayName("Day 1")
 class Day01Test {
 
     // Arrange
