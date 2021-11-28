@@ -1,0 +1,40 @@
+name: Build & Test
+
+on:
+  push:
+    branches: [ main ] # Just in case main was not up to date while merging PR
+  pull_request:
+    types: [ opened, synchronize ]
+
+jobs:
+  build-and-test:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up our JDK environment
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+
+      - name: Cache Gradle and wrapper
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      # Generate jacoco report
+      - name: Launch tests
+        run: ./gradlew test
