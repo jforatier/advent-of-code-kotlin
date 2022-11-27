@@ -27,7 +27,7 @@ class Day01Test {
         @Test
         fun `Actual answer`() {
             // Act
-            val answer = Day01(asListOfInt("day01.txt")).part1()
+            val answer = Day01(asListOfInt("2020/day01.txt")).part1()
 
             // Assert
             assertThat(answer).isEqualTo(181_044)
@@ -49,7 +49,7 @@ class Day01Test {
         @Test
         fun `Actual answer`() {
             // Act
-            val answer = Day01(asListOfInt("day01.txt")).part2()
+            val answer = Day01(asListOfInt("2020/day01.txt")).part2()
 
             // Assert
             assertThat(answer).isEqualTo(82_660_352)
