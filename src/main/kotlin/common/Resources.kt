@@ -16,4 +16,23 @@ internal object Resources {
     private fun String.toURI(): URI =
         Resources.javaClass.classLoader.getResource(this)?.toURI()
             ?: throw IllegalArgumentException("Cannot find Resource: $this")
+
+    /**
+     *  Separates by empty line. Each new string contains one or more \n-separated rows.
+     */
+    fun List<String>.splitOnEmpty(): List<List<String>> {
+        val res = mutableListOf<List<String>>()
+        var group = mutableListOf<String>()
+
+        forEach {
+            if (it.trim().isEmpty()) {
+                res += group
+                group = mutableListOf()
+            } else {
+                group += it
+            }
+        }
+        res += group
+        return res
+    }
 }

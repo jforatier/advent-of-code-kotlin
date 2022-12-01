@@ -2,9 +2,17 @@
 
 My 'chocolate-free' Advent Calendar for Kotlin
 
-[![Build & Test](https://github.com/jforatier/advent-of-code-kotlin/actions/workflows/main.yml/badge.svg)](https://github.com/jforatier/advent-of-code-kotlin/actions/workflows/main.yml)
+[![2022 Progress](https://img.shields.io/badge/2022-1%2F25-f5ef42)](./src/main/kotlin/y2022/)
 [![2021 Progress](https://img.shields.io/badge/2021-4%2F25-f5ef42)](./src/main/kotlin/y2021/)
 [![2020 Progress](https://img.shields.io/badge/2020-1%2F25-f5ef42)](./src/main/kotlin/y2020/)
+
+[![Build & Test](https://github.com/jforatier/advent-of-code-kotlin/actions/workflows/main.yml/badge.svg)](https://github.com/jforatier/advent-of-code-kotlin/actions/workflows/main.yml)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=jforatier_advent-of-code-kotlin&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=jforatier_advent-of-code-kotlin)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=jforatier_advent-of-code-kotlin&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=jforatier_advent-of-code-kotlin)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=jforatier_advent-of-code-kotlin&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=jforatier_advent-of-code-kotlin)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=jforatier_advent-of-code-kotlin&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=jforatier_advent-of-code-kotlin)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=jforatier_advent-of-code-kotlin&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=jforatier_advent-of-code-kotlin)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=jforatier_advent-of-code-kotlin&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=jforatier_advent-of-code-kotlin)
 
 
 ## 🚀 Getting started
