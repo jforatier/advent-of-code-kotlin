@@ -3,7 +3,7 @@
 My 'chocolate-free' Advent Calendar for Kotlin
 
 [![2022 Progress](https://img.shields.io/badge/2022-4%2F25-f5ef42)](./src/main/kotlin/y2022/)
-[![2021 Progress](https://img.shields.io/badge/2021-4%2F25-f5ef42)](./src/main/kotlin/y2021/)
+[![2021 Progress](https://img.shields.io/badge/2021-5%2F25-f5ef42)](./src/main/kotlin/y2021/)
 [![2020 Progress](https://img.shields.io/badge/2020-1%2F25-f5ef42)](./src/main/kotlin/y2020/)
 
 [![Build & Test](https://github.com/jforatier/advent-of-code-kotlin/actions/workflows/main.yml/badge.svg)](https://github.com/jforatier/advent-of-code-kotlin/actions/workflows/main.yml)
